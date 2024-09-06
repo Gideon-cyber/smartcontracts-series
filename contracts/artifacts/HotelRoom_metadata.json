@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_occupant",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "Occupy",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bookHotel",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentStatus",
+				"outputs": [
+					{
+						"internalType": "enum HotelRoom.Statuses",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Ether Payments Modifiers Visibility Events Enums",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HotelRoom.sol": "HotelRoom"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HotelRoom.sol": {
+			"keccak256": "0x8ce19ca798c0b75ae2d5fd45fd7dea7bec16d49de560ea937f4102d175af80ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ceddbf7a362ccb5a58e109810bd0e354a3bb79832bb8102513a583cf3b382d82",
+				"dweb:/ipfs/Qma9yDqeEWPoitYQeo71qfYeNgHAM7tHD87YaMGdxmdaQ9"
+			]
+		}
+	},
+	"version": 1
+}
